@@ -10,7 +10,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
 
-public class test1 extends JFrame implements ActionListener {
+public class contactManagerV3 extends JFrame implements ActionListener {
     String[][] contactData = new String[999][5];
     int numOfContacts = 0;
     int flag = -1;
@@ -40,14 +40,14 @@ public class test1 extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
         //Program window configuration
-        test1 window = new test1();
+        contactManagerV3 window = new contactManagerV3();
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setTitle("Contact Manager");
         window.setSize(800,600);
         window.setVisible(true);
     }
 
-    public test1() {
+    public contactManagerV3() {
         // JPANELS CONFIGURATION SECTION
 
         //InitJPanel
