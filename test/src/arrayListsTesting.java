@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+/**import java.util.ArrayList;
 
 public class arrayListsTesting {
     public static void main (String[] args) {
@@ -21,5 +21,6 @@ public class arrayListsTesting {
         indexOf(Object O)
         clear()
          */
-    }
-}
+ //   }
+//
+
